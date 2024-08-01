@@ -17,7 +17,7 @@ class Swap{
     void swapping(int &aref,int &bref){
         t=aref;
         aref=bref;
-        bref=aref;
+        bref=t;
        }
 
     void display(){
