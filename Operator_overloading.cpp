@@ -1,6 +1,7 @@
 // Using friend fucntion
 /*Syntax: 
 friend return_type(class) operator op(const class) 
+*/
 #include <iostream>
 using namespace std;
 
@@ -19,14 +20,14 @@ class number{
         y=num_y;
     }
 
-   friend number operator +(const number &p);
+   friend number operator +( number &p);
 
     void display(){
         cout << x << " " << y << endl;
     }
 };
 
-number operator +(const number &p){
+number operator +( number &p){
     return number(-p.x,-p.y);
 }
 
@@ -38,7 +39,7 @@ int main(){
 
     return 0;
 }
-*/
+
 
 // using member method
 
