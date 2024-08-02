@@ -28,4 +28,4 @@ int main(){
     b1.readData();
     b1.display();
     return 0;
-}
+} 
