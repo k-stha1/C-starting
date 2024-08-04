@@ -47,10 +47,6 @@ class book{
     void display(){
         cout << "Book id" << id << "Book name" << name << endl;
     }
-    book(const book &other){
-        id=other.id;
-        name=other.name;
-    }
 };
 
 book::book(int book_id,string book_name){
@@ -63,8 +59,7 @@ int main(){
     b1.display();
     book b2(1,"The last of us");
     b2.display();
-    book b3 = b2;
-    b3.display();
+    
 
     return 0;
 
