@@ -65,9 +65,7 @@ public:
     }
 
     
-    Point operator-(Point& p2){
-        return Point (x-p2.x,y-p2.y);
-    }
+    Point operator-(Point& p2);
 
     // Function to display the point
     void display()  {
@@ -75,7 +73,11 @@ public:
     }
 };
 
-
+Point Point :: operator-(Point& p2){
+    {
+        return Point (x-p2.x,y-p2.y);
+    }
+}
 
 
 int main() {
