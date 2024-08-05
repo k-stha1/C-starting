@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -20,8 +21,10 @@ class Mammal: public Animal{
 int main(){
     Mammal human;
     human.feature();
-    human.display();
+    human.display(); 
     
      return 0;
 
 }
+*/
+
