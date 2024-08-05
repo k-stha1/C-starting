@@ -26,7 +26,7 @@ class ScientificCal :public Num {
     void displayCalc(){
         getNum();
         cout << "Sum is: " << x + y << endl;
-      
+        cout << "Difference is:" << x-y << endl;
     }
 };
 
