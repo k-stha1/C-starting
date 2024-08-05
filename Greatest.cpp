@@ -28,14 +28,6 @@ class Time{
 		
 	}
 
-	void displayResult( int t3){
-	cout << "if t1 > t2 result is 1" << endl;
-	cout << "if t1 < t2 result is 0" << endl;
-
-	cout << "Is t1 > t2?" << t3 << endl;
-
-	}
-
 	Time (const Time& other){
 		HH=other.HH;
 		MM= other.MM;
