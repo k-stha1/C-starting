@@ -46,3 +46,14 @@ class Student: public Base{
         cout << "Department: " << Department << endl;
     }
 };
+
+int main(){
+    Teacher t1;
+    t1.getInfo();
+    t1.display();
+
+    Student s1;
+    s1.getInfo();
+    s1.display();
+    return 0;
+}
