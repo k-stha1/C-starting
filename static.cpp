@@ -1,4 +1,4 @@
-/* #include <iostream>
+#include <iostream>
 using namespace std;
 
 class increase{
@@ -25,7 +25,7 @@ int main(){
     cout << "The final value of counter" << increase::display() << endl;
 return 0;
 }
-*/
+
 
 /* #include <iostream>
 using namespace std;
@@ -57,7 +57,7 @@ return 0;
 */ 
 
 
-/* #include <iostream>
+#include <iostream>
 using namespace std;
 
 class Car {
@@ -99,6 +99,6 @@ int main() {
 
     return 0;
 }
-*/
+
 
 
