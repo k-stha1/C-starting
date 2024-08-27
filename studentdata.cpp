@@ -37,7 +37,7 @@ int main(){
 */
 
 //Second way 
-/* #include <iostream>
+#include <iostream>
 using namespace std;
 
 class student{
@@ -71,4 +71,3 @@ int main(){
     s1.displayInfo();
     return 0;
 }
-*/
